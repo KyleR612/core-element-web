@@ -1,0 +1,123 @@
+html, body {
+    font-family: "Markazi Text, serif";
+    text-align: center;
+    background-image: url('coding-background-a9u47jczuylhc9cw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    line-height: 1.5;
+}
+section {
+    display: flex;
+}
+article {
+    flex: 1;
+}
+.img {
+    max-width: 100%; /* Prevent overflow */
+    max-height: 100%;
+    border-radius: 5px;
+    margin: 5px;
+}
+.textual {
+    border: 1px;
+    display: inline;
+}
+.textual:hover{
+    box-shadow: 5px 0px 25px white;
+}
+#footer {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    font-size: 0.7em;
+    height: 10px;
+    margin-top: -10px;
+    clear: both;
+}
+h1 {
+    color: orange;
+    text-align: center;
+    display: inline-block;
+    font-size: clamp(1.5rem, 5vw, 3rem); /* min, preferred, max */
+}
+.project {
+    color: white;
+    background-color: rgb(55, 55, 135);
+}
+* {
+    margin: 0;
+    padding: 0;
+   }  
+   .container, ul, li {
+    justify-content: space-evenly;
+    align-items: center;
+    display: inline;
+    margin: 55px 55px;
+   }
+   li, .links {
+    background-color: rgb(55, 55, 135);
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+   }
+   .certs {
+   margin: auto;
+   }
+   .certs1 {
+   margin: auto;
+   }
+   .certs2 {
+    margin: auto;
+   }
+   .calculator {
+    color: white;
+    background-color: rgb(55, 55, 135);
+   }
+
+   .if {
+    color: red;
+   }
+   #container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    min-height: 30vh;
+    padding: 10px;
+   }
+   .sections {
+    flex: 1;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+   }
+   .text {
+    background-color: black;
+    border: 1px solid limegreen;
+    display: inline;
+    padding: 2px 4px;
+   }
+   .img-text-container {
+    display: inline-block;
+   }
+   .img-text-container img {
+    width: 375px;
+    height: 500px;
+    float: left;
+    margin-right: 15px;
+   }
+   .img-text-container-h3 {
+    color: orange;
+    font-size: 30px;
+    text-align: left;
+   }
+   .img-text-container-word {
+    font-size: 20px;
+    background-color: black;
+    border: 1px solid limegreen;
+    display: flex;
+    margin-top: 30px;
+    margin-right: 40px;
+   }
