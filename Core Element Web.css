@@ -65,14 +65,26 @@ h1 {
     margin: 0.3rem;
     font-size: clamp(14px, 2vw, 22px);
    }
-   .certs {
-   margin: auto;
+/* Container to control overflow and layout */
+  .zoom-container {
+    display: inline-block;
+    overflow: hidden; /* hides the part of the image that zooms out of bounds */
+    border-radius: 8px; /* optional rounded corners */
    }
-   .certs1 {
-   margin: auto;
+   /* Image styling */
+  .zoom-container img {
+    display: block;
+    width: 400px; /* set a fixed size or use 100% for responsive */
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease; /* smooth zoom animation */
+    transform-origin: center center;
+    cursor: zoom-in; /* changes cursor to indicate zoom */
    }
-   .certs2 {
-    margin: auto;
+   /* Zoom effect on hover */
+  .zoom-container:hover img {
+    transform: scale(1.5); /* zoom level (1.5 = 150%) */
+    cursor: zoom-out;
    }
    .calculator {
     color: white;
