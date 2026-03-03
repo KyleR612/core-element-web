@@ -82,13 +82,13 @@ article {
 /* About.html */
 .image-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-column: repeat(3, 1fr);;
     gap: 10px;
 }
 .zoomImage {
     display: block;
     margin: auto;
-    width: 300px;
+    width: 310px;
     height: 275px;
     transition: all 0.5s;
     cursor: pointer;
@@ -104,7 +104,7 @@ article {
     border: 1px solid limegreen;
     display: inline;
     padding: 2px 4px;
-    font-size: clamp(16px, 2vw, 22px);
+    font-size: clamp(16px, 1.2rem, 22px);
 }
 /* Projects.html */
 .project {
