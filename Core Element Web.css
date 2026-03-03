@@ -74,6 +74,7 @@ h1 {
     display: block;
     margin: auto;
     width: 300px;
+    height: 275px;
     transition: all 0.5s;
     cursor: pointer;
    }
@@ -84,7 +85,6 @@ h1 {
     color: white;
     background-color: rgb(55, 55, 135);
    }
-
    .if {
     color: red;
    }
@@ -107,6 +107,14 @@ h1 {
     border: 1px solid limegreen;
     display: inline;
     padding: 2px 4px;
+    font-size: clamp(14px, 1vw, 22px);
+   }
+   .text1 {
+    background-color: black;
+    border: 1px solid limegreen;
+    display: inline;
+    padding: 2px 4px;
+    font-size: clamp(16px, 2vw, 22px);
    }
    .img-text-container {
     display: inline-block;
