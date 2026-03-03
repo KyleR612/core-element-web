@@ -22,29 +22,18 @@
 <h2>Accomplishments</h2>
 <p>These are my accomplishments from taking a 9-course series of front-end web development courses.</p>
 <br>
-    <div class="zoom-container">
-        <img src="introduction.png" id="zoomImage">
-    </div>
-    <script>
-  const container = document.querySelector('.zoom-container');
-  const img = document.getElementById('zoomImage');
-
-  const zoomScale = 2; // how much to zoom in
-
-  container.addEventListener('mousemove', (e) => {
-    const rect = container.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width) * 100;
-    const y = ((e.clientY - rect.top) / rect.height) * 100;
-
-    img.style.transformOrigin = `${x}% ${y}%`;
-    img.style.transform = `scale(${zoomScale})`;
-  });
-
-  container.addEventListener('mouseleave', () => {
-    img.style.transformOrigin = 'center center';
-    img.style.transform = 'scale(1)';
-  });
-</script>
+<div class="image-container">
+        <img src="introduction.png" class="zoomImage">
+        <img src="program java.png" class="zoomImage">
+        <img src="vers control.png" class="zoomImage">
+        <img src="html&css.png" class="zoomImage">
+        <img src="React Basics.png" class="zoomImage">
+        <img src="Advanced React.png" class="zoomImage">
+        <img src="Principles of UX and UI design.png" class="zoomImage">
+        <img src="front-end developer capstone.png" class="zoomImage">
+        <img src="Coding Interview Preparation.png" class="zoomImage">
+        <img src="Meta Front-End Developer Professional Certificate.png" class="zoomImage">
+</div>        
 <br>
 <br>
 <footer id="footer">Copyright &copy; Kyle Radant</footer>
