@@ -1,3 +1,4 @@
+/* Main css for entire project */
 html, body {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -7,6 +8,44 @@ html, body {
     background-attachment: fixed;
     color: white;
 }
+/* Main Header for all pages */
+h1 {
+    color: orange;
+    text-align: center;
+    display: inline-block;
+    font-size: clamp(1.5rem, 5vw, 3rem); /* min, preferred, max */
+    padding: 2vh;
+}
+/* Nav Links */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.container, ul, li {
+    padding: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    padding: 1px;
+}
+li, .links {
+    background-color: rgb(55, 55, 135);
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0.3rem;
+    font-size: clamp(14px, 2vw, 22px);
+}
+.img-text-container {
+    display: inline-block;
+}
+.img-text-container img {
+    width: 375px;
+    height: 500px;
+    float: left;
+    margin-right: 15px;
+}
+/* Index.html */
 section {
     display: flex;
 }
@@ -19,6 +58,20 @@ article {
     border-radius: 5px;
     margin: 5px;
 }
+.img-text-container-h3 {
+    color: orange;
+    font-size: 30px;
+    text-align: left;
+}
+.img-text-container-word {
+    font-size: 20px;
+    background-color: black;
+    border: 1px solid limegreen;
+    display: flex;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+/* Contact.html */
 .textual {
     border: 1px;
     display: inline;
@@ -26,6 +79,67 @@ article {
 .textual:hover{
     box-shadow: 5px 0px 25px white;
 }
+/* About.html */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.zoomImage {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 275px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.zoomImage:hover {
+    transform: scale(1.6);
+}
+.h2 {
+    color: orangered;
+}
+.text1 {
+    background-color: black;
+    border: 1px solid limegreen;
+    display: inline;
+    padding: 2px 4px;
+    font-size: clamp(16px, 2vw, 22px);
+}
+/* Projects.html */
+.project {
+    color: white;
+    background-color: rgb(55, 55, 135);
+}
+.text {
+    background-color: black;
+    border: 1px solid limegreen;
+    display: inline;
+    padding: 2px 4px;
+    font-size: clamp(14px, 1.2rem, 22px);
+}
+.calculator {
+    color: white;
+    background-color: rgb(55, 55, 135);
+}
+.if {
+    color: red;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    min-height: 30vh;
+    padding: 10px;
+}
+.sections {
+    flex: 1;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+/* Footer for all pages */
 #footer {
     position: relative;
     width: 100%;
@@ -35,109 +149,6 @@ article {
     margin-top: -10px;
     clear: both;
 }
-h1 {
-    color: orange;
-    text-align: center;
-    display: inline-block;
-    font-size: clamp(1.5rem, 5vw, 3rem); /* min, preferred, max */
-    padding: 2vh;
-}
-.project {
-    color: white;
-    background-color: rgb(55, 55, 135);
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }  
-   .container, ul, li {
-    padding: 1rem;
-    display: inline-flex;
-    justify-content: center;
-    padding: 1px;
-   }
-   li, .links {
-    background-color: rgb(55, 55, 135);
-    color: white;
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0.3rem;
-    font-size: clamp(14px, 2vw, 22px);
-   }
-   .image-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-   }
-   .zoomImage {
-    display: block;
-    margin: auto;
-    width: 300px;
-    height: 275px;
-    transition: all 0.5s;
-    cursor: pointer;
-   }
-   .zoomImage:hover {
-    transform: scale(1.6);
-   }
-   .calculator {
-    color: white;
-    background-color: rgb(55, 55, 135);
-   }
-   .if {
-    color: red;
-   }
-   #container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-evenly;
-    min-height: 30vh;
-    padding: 10px;
-   }
-   .sections {
-    flex: 1;
-    margin: 10px;
-    padding: 40px;
-    border-radius: 8px;
-    text-align: center;
-   }
-   .text {
-    background-color: black;
-    border: 1px solid limegreen;
-    display: inline;
-    padding: 2px 4px;
-    font-size: clamp(14px, 1vw, 22px);
-   }
-   .text1 {
-    background-color: black;
-    border: 1px solid limegreen;
-    display: inline;
-    padding: 2px 4px;
-    font-size: clamp(16px, 2vw, 22px);
-   }
-   .img-text-container {
-    display: inline-block;
-   }
-   .img-text-container img {
-    width: 375px;
-    height: 500px;
-    float: left;
-    margin-right: 15px;
-   }
-   .img-text-container-h3 {
-    color: orange;
-    font-size: 30px;
-    text-align: left;
-   }
-   .img-text-container-word {
-    font-size: 20px;
-    background-color: black;
-    border: 1px solid limegreen;
-    display: flex;
-    margin-top: 30px;
-    margin-right: 40px;
-   }
    /* Media query for screens smaller than 768px */
    @media (max-width: 768px) {
     p {
