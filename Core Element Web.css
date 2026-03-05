@@ -74,6 +74,8 @@ article {
 /* Contact.html */
 .textual {
     border: 1px;
+    background-color: black;
+    border: 1px solid limegreen;
     display: inline;
     font-size: clamp(14px, 1rem, 22px);
 }
