@@ -79,8 +79,7 @@ article {
 .textual:hover{
     box-shadow: 5px 0px 25px white;
 }
-/* About.html */ 
-/* Smartphone styles (≤767px) */  
+/* About.html */  
 /* Responsive width for smartphones */  
 @media (max-width: 767px) {  
   .image-container { width: 90%; } /* 90% of viewport width */  
