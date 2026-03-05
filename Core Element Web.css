@@ -105,13 +105,13 @@ article {
 .zoomImage {
     display: block;
     margin: auto;
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 85%;
     transition: all 0.5s;
     cursor: pointer;
 }
 .zoomImage:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 .h2 {
     color: orangered;
