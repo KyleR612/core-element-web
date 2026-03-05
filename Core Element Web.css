@@ -148,6 +148,11 @@ article {
     border-radius: 8px;
     text-align: center;
 }
+@media (max-width: 767px) {  
+  .image-container { width: 80%; } /* 90% of viewport width */  
+  .text1 { font-size: 1rem; } /* Scales with root font size */ 
+  .sidebar { display: none; } 
+} 
 /* Footer for all pages */
 #footer {
     position: relative;
