@@ -75,6 +75,7 @@ article {
 .textual {
     border: 1px;
     display: inline;
+    font-size: clamp(14px, 1rem, 22px);
 }
 .textual:hover{
     box-shadow: 5px 0px 25px white;
@@ -119,9 +120,6 @@ article {
 .project {
     color: white;
     background-color: rgb(55, 55, 135);
-}
-:root {  
-  --phone-max: 767px;
 }
 .text {
     background-color: black;
