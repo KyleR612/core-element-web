@@ -79,10 +79,20 @@ article {
 .textual:hover{
     box-shadow: 5px 0px 25px white;
 }
-/* About.html */
+/* About.html */ 
+/* Smartphone styles (≤767px) */  
+/* Responsive width for smartphones */  
+@media (max-width: 767px) {  
+  .image-container { width: 90%; } /* 90% of viewport width */  
+  .text1 { font-size: 1rem; } /* Scales with root font size */ 
+  .sidebar { display: none; } 
+}  
+:root {  
+  --phone-max: 767px;
+}
 .image-container {
     display: grid;
-    grid-column: repeat(3, 1fr);;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 .zoomImage {
