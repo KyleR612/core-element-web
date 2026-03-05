@@ -113,7 +113,7 @@ article {
     border: 1px solid limegreen;
     display: inline;
     padding: 2px 4px;
-    font-size: clamp(16px, 1.2rem, 22px);
+    font-size: clamp(16px, 1.1rem, 22px);
 }
 /* Projects.html */
 .project {
