@@ -82,7 +82,7 @@ article {
 /* About.html */  
 /* Responsive width for smartphones */  
 @media (max-width: 767px) {  
-  .image-container { width: 90%; } /* 90% of viewport width */  
+  .image-container { width: 80%; } /* 90% of viewport width */  
   .text1 { font-size: 1rem; } /* Scales with root font size */ 
   .sidebar { display: none; } 
 }  
