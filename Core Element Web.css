@@ -120,6 +120,9 @@ article {
     color: white;
     background-color: rgb(55, 55, 135);
 }
+:root {  
+  --phone-max: 767px;
+}
 .text {
     background-color: black;
     border: 1px solid limegreen;
