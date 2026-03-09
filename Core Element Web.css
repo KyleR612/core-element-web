@@ -106,7 +106,8 @@ article {
     display: block;
     margin: auto;
     width: 81.5%;
-    height: 50vh;
+    height: 100%;
+    object-fit: cover;
     transition: all 0.5s;
     cursor: pointer;
 }
