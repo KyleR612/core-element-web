@@ -98,14 +98,14 @@ article {
 .image-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 8px;
     padding: 0 15px;
     margin: 0 auto;
 }
 .zoomImage {
     display: block;
     margin: auto;
-    width: 90%;
+    width: 81.5%;
     height: 50vh;
     transition: all 0.5s;
     cursor: pointer;
