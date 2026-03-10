@@ -53,10 +53,10 @@ article {
     flex: 1;
 }
 .img {
-    max-width: 100%;
+    max-width: 100%; /* Prevent overflow */
     max-height: 100%;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
 }
 .img-text-container-h3 {
     color: orange;
