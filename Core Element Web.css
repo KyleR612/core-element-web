@@ -36,15 +36,6 @@ li, .links {
     margin: 0.3rem;
     font-size: clamp(14px, 2vw, 22px);
 }
-.img-text-container {
-    display: inline-block;
-}
-.img-text-container img {
-    width: 375px;
-    height: 500px;
-    float: left;
-    margin-right: 15px;
-}
 /* Index.html */
 section {
     display: flex;
@@ -52,10 +43,13 @@ section {
 article {
     flex: 1;
 }
+.img-text-container {
+    display: inline-block;
+}
 .img-text-container img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 5px;
+    width: 375px;
+    height: 500px;
+    float: left;
     margin: 5px;
 }
 .img-text-container-h3 {
