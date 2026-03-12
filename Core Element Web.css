@@ -8,6 +8,10 @@ body {
     background-attachment: fixed;
     color: white;
 }
+#grid-container {
+    min-height: 100%;
+    position: relative;
+}
 /* Main Header for all pages */
 h1 {
     color: orange;
@@ -71,7 +75,7 @@ article {
     border: 1px solid limegreen;
     font-size: clamp(14px, 1rem, 22px);
     display: inline-block;
-    margin: 10px;
+    margin: 15px;
 }
 /* About.html */  
 /* Tablet: 2 images across */
@@ -91,7 +95,7 @@ article {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding: 0 15px;
-    margin: 0 auto;
+    margin: 20px;
 }
 .zoomImage {
     display: block;
@@ -102,12 +106,13 @@ article {
     cursor: pointer;
 }
 .zoomImage:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 .h2 {
     color: orangered;
     font-size: clamp(14px, 2vw, 22px);
     text-align: center;
+    margin: 10px;
 }
 .text1 {
     background-color: black;
@@ -128,6 +133,7 @@ article {
 .img1, .img2, .img3, .img4 {
     max-width: 100%;
     max-height: 100%;
+    margin: 5px;
 }
 .text {
     background-color: black;
@@ -135,6 +141,7 @@ article {
     display: inline-block;
     padding: 2px 4px;
     font-size: clamp(14px, 1.2rem, 22px);
+    margin: 5px;
 }
 .calculator {
     color: white;
@@ -164,7 +171,7 @@ article {
 } 
 /* Footer for all pages */
 #footer {
-    position: sticky;
+    position: absolute;
     width: 100%;
     bottom: 0;
     color: #fff;
