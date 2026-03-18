@@ -143,7 +143,7 @@ h2 {
     background-color: black;
     border: 1px solid limegreen;
     display: inline-block;
-    font-size: clamp(10px, 1rem, 22px);
+    font-size: clamp(10px, 4vw, 22px);
     margin: 6px;
 }
 .calculator {
